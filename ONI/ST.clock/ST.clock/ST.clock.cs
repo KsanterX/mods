@@ -9,7 +9,7 @@ namespace ST.clock
 			{ "Morning", "#ebb74" },
 			{ "Day", "#ef810e" },
 			{ "Evening", "#09679a" },
-			{ "Night", "#003a55" }
+			{ "Night", "#33c416" }
 		};
 		public static string GetClock()
 		{
@@ -19,7 +19,7 @@ namespace ST.clock
 		public static string FormatAsClock(string text)
 		{
 
-			return "<color=" + DayTimeColors[CheckTimeOfDay()] + ">" + text + "</color>";
+			return "<b><color=" + DayTimeColors[CheckTimeOfDay()] + "><b>" + text + "</color>";
 		}
 
 		public static string CheckTimeOfDay()
