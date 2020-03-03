@@ -1,2 +1,9 @@
-*/dev/
-/ONI/
+# my dev folders
+dev/
+# visual studio
+.vs/
+bin/
+obj/
+
+/ONI/dll/
+
