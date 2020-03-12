@@ -9,7 +9,7 @@ namespace ST.clock
 			{ "Morning", "#eebb74" },
 			{ "Day", "#ef810e" },
 			{ "Evening", "#09679a" },
-			{ "Night", "#003a55" }
+			{ "Night", "#0dbf19" }
 		};
 		public static string GetClock()
 		{
