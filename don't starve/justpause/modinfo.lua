@@ -1,7 +1,7 @@
 name = "Just Pause"
-description = "Pauses the game if you press 'P' key. Doesn't obstruct the view with the Menu screen. Feel free to explore the crafting menu or plan your next move. It is still possible to use the regular pause method."
+description = "Pauses the game if you press the 'P' key or any other key from the mod options. Doesn't obstruct the view with the Menu screen. It is still possible to use the regular pause method."
 author = "Ksanter X"
-version = "1.2"
+version = "1.22"
 
 forumthread = ""
 api_version = 6
@@ -11,7 +11,8 @@ icon = "modicon.tex"
 
 dont_starve_compatible = true
 reign_of_giants_compatible = true
-dst_compatible = true
+shipwrecked_compatible = true
+dst_compatible = false
 hamlet_compatible = true
 
 configuration_options = {

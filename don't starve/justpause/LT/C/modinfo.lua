@@ -1,7 +1,7 @@
 name = "只是暂停"
 description = "按下按钮暂停游戏(P=默认). 更改mod选项中的按钮. 默认游戏暂停仍然有效."
 author = "Ksanter X"
-version = "1.2"
+version = "1.22"
 
 forumthread = ""
 api_version = 6
@@ -11,7 +11,8 @@ icon = "modicon.tex"
 
 dont_starve_compatible = true
 reign_of_giants_compatible = true
-dst_compatible = true
+shipwrecked_compatible = true
+dst_compatible = false
 hamlet_compatible = true
 
 configuration_options = {
