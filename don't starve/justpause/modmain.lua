@@ -2,8 +2,10 @@ local TheInput = GLOBAL.TheInput
 local KEY_P = GLOBAL.KEY_P
 local IsPaused = GLOBAL.IsPaused
 
-TheInput:AddKeyDownHandler(KEY_P, function()
-  if TheInput:IsKeyDown(KEY_P) then
+GLOBAL.jp_key = GetModConfigData("jp_key")
+
+TheInput:AddKeyDownHandler(GLOBAL.jp_key or KEY_P, function()
+  if TheInput:IsKeyDown(GLOBAL.jp_key) then
     if not IsPaused() then
       GLOBAL.SetPause(true)
     else

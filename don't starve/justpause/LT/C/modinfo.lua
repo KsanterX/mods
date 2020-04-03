@@ -1,5 +1,5 @@
-name = "Just Pause"
-description = "Pauses the game if you press 'P' key. Doesn't obstruct the view with the Menu screen. Feel free to explore the crafting menu or plan your next move. It is still possible to use the regular pause method."
+name = "只是暂停"
+description = "按下按钮暂停游戏(P=默认). 更改mod选项中的按钮. 默认游戏暂停仍然有效."
 author = "Ksanter X"
 version = "1.2"
 
@@ -17,7 +17,7 @@ hamlet_compatible = true
 configuration_options = {
   {
     name = "jp_key",
-    label = "Key",
+    label = "按钮",
     hover = "...",
     options = 
     {
@@ -44,7 +44,7 @@ configuration_options = {
       {description = "M", data = 109},
       {description = "N", data = 110},
       {description = "O", data = 111},
-      {description = "P (default)", data = 112},
+      {description = "P (默认)", data = 112},
       {description = "R", data = 114},
       {description = "T", data = 116},
       {description = "U", data = 117},
@@ -52,7 +52,7 @@ configuration_options = {
       {description = "X", data = 120},
       {description = "Y", data = 121},
       {description = "Z", data = 122},
-      {description = "CAPS (u crazy)", data = 301}
+      {description = "CAPS LOCk", data = 301}
     },
     default = 112,
   }
