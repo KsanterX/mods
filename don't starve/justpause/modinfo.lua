@@ -53,6 +53,8 @@ configuration_options = {
       {description = "X", data = 120},
       {description = "Y", data = 121},
       {description = "Z", data = 122},
+      {description = "SPACE", data = 32},
+      {description = "~", data = 96},
       {description = "CAPS (u crazy)", data = 301}
     },
     default = 112,
