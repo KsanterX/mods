@@ -1,7 +1,7 @@
 name = "Just Pause"
 description = "Pauses the game if you press the 'P' key or any other key from the mod options. Doesn't obstruct the view with the Menu screen. It is still possible to use the regular pause method."
 author = "Ksanter X"
-version = "1.22"
+version = "1.23"
 
 forumthread = ""
 api_version = 6
