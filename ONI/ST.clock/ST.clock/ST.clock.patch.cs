@@ -1,5 +1,5 @@
 ﻿using System;
-using Harmony;
+using HarmonyLib;
 
 namespace ST.clock
 {
@@ -18,7 +18,7 @@ namespace ST.clock
 					return;
 				}
 				LocText rationsText = __instance.RationsText;
-				rationsText.text = rationsText.text + " | " + STclockMod.FormatAsClock(STclockMod.GetClock());
+				rationsText.text += " | " + STclockMod.FormatAsClock(STclockMod.GetClock());
 				return;
 			}
 		}
